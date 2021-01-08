@@ -6,6 +6,7 @@
     "bootstrap": "^4.5.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-particles-js": "^3.4.1",
     "react-rotating-text": "^1.4.1",
     "react-scripts": "^2.0.5",
     "react-scroll": "^1.8.1",

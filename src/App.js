@@ -5,6 +5,8 @@ import Section from "./Components/Section";
 import dummyText from "./Assests/DummyText";
 import HomeText from "./Assests/HomeText";
 import Typer from "./Components/Typewriter";
+import Particles from "react-particles-js";
+
 class App extends Component {
   render() {
     return (
@@ -29,6 +31,29 @@ class App extends Component {
           subtitle="Message me!"
           dark={false}
           id="Contact"
+        />
+        <Particles
+          style={{ position: "fixed", top: 0 }}
+          height="95%"
+          width="95%"
+          params={{
+            particles: {
+              color: {
+                value: "#000000",
+              },
+              line_linked: {
+                color: {
+                  value: "#000000",
+                },
+              },
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 3,
+              },
+            },
+          }}
         />
       </div>
     );
