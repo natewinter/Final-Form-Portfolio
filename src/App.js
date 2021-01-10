@@ -13,29 +13,28 @@ class App extends Component {
     return (
       <div className="App">
         <div style={{ position: "relative" }}>
-          <div style={{ position: "absolute" }}>
-            <Particles
-              style={{ position: "fixed", top: 0 }}
-              params={{
-                particles: {
+          <Particles
+            id="particles-js"
+            style={{ position: "fixed", top: 0 }}
+            params={{
+              particles: {
+                color: {
+                  value: "#000000",
+                },
+                line_linked: {
                   color: {
                     value: "#000000",
                   },
-                  line_linked: {
-                    color: {
-                      value: "#000000",
-                    },
-                  },
-                  number: {
-                    value: 50,
-                  },
-                  size: {
-                    value: 3,
-                  },
                 },
-              }}
-            />
-          </div>
+                number: {
+                  value: 50,
+                },
+                size: {
+                  value: 3,
+                },
+              },
+            }}
+          />
           <Navbar />
           <Typer />
           <Section title="Home" subtitle={HomeText} dark={true} id="Home" />
