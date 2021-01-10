@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll, Link } from "react-scroll";
 import "../Styles/Navbar.css";
 
 export default class Navbar extends Component {

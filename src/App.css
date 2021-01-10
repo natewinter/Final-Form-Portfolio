@@ -43,12 +43,12 @@
 }
 
 .section {
-  color: pink;
+  color: #815192;
 }
 
 .section-dark {
-  background: #333;
-  color: pink;
+  background: #815192;
+  color: #f0eef2;
 }
 
 .section-content {
