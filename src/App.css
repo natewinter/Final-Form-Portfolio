@@ -43,11 +43,12 @@
 }
 
 .section {
-  color: #815192;
+  color: #215a96;
 }
 
 .section-dark {
-  background: #815192;
+  background: #215a96;
+
   color: #f0eef2;
 }
 
@@ -63,7 +64,7 @@
 
 .typist {
   text-align: center;
-  background-color: blue;
+  background-color: #c9e6e0;
   padding-top: 25%;
   padding-bottom: 25%;
 }
