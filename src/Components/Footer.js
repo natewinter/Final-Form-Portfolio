@@ -15,8 +15,9 @@ function Footer() {
               <a href="https://github.com/natewinter">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
-              <a href="https://www.linkedin.com/in/josh-brown-a874421bb"></a>
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <a href="https://www.linkedin.com/in/josh-brown-a874421bb">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </a>
             </div>
           </div>
         </Container>

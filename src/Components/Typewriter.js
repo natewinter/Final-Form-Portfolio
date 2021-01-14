@@ -13,7 +13,7 @@ function Typer() {
             " Game Development",
             " Vinyl Enthusiast ",
           ]}
-          color="#69DDFF"
+          color="#f0eef2"
         />
       </h2>
     </div>

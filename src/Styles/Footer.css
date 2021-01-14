@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   padding-bottom: 10%;
-  background: teal;
+  background: #815192;
   opacity: 100%;
+}
+
+a:visited {
+  color: #f0eef2;
 }
