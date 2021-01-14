@@ -1,8 +1,7 @@
 .footer__container {
-  display: grid;
+  display: flex;
   justify-content: center;
   padding-bottom: 10%;
   background: teal;
   opacity: 100%;
-  z-index: -100000;
 }
