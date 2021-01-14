@@ -18,6 +18,7 @@ function Footer() {
               <a href="https://www.linkedin.com/in/josh-brown-a874421bb">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
+              <p>&copy; 2021 Josh Brown</p>
             </div>
           </div>
         </Container>

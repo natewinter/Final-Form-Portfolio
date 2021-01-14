@@ -6,6 +6,7 @@ import HomeText from "./Assests/HomeText";
 import Footer from "./Components/Footer.js";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
+import Project from "./Components/Projects";
 import Typer from "./Components/Typewriter";
 
 class App extends Component {
@@ -43,11 +44,12 @@ class App extends Component {
           dark={false}
           id="Projects"
         />
+        <Project />
         <Section
           title="About Me"
           subtitle={dummyText}
           dark={true}
-          id="About_Me"
+          id="AboutMe"
         />
         {/* footer */}
         <Footer />

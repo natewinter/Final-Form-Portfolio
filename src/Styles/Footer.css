@@ -1,11 +1,19 @@
 .footer__container {
   display: flex;
   justify-content: center;
-  padding-bottom: 10%;
-  background: #815192;
+  background: #292634;
   opacity: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  /* border-bottom-right-radius: 50%; */
+  /* border-bottom-left-radius: 50%; */
+  color: white;
 }
 
 a:visited {
   color: #f0eef2;
+}
+
+a {
+  padding-right: 1rem;
 }
