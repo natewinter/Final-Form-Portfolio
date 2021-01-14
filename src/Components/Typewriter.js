@@ -6,11 +6,12 @@ function Typer() {
   return (
     <div className=" typist my-2">
       <h2>
-        Hi, I'm Josh! A Web Developer with interest in
+        <h1>Hi, I'm Josh Brown! A</h1>
         <ReactRotatingText
           items={[
+            "Web Developer",
             " Cannabis Cultivation ",
-            " Game Development",
+            " Game Developer",
             " Vinyl Enthusiast ",
           ]}
           color="#f0eef2"

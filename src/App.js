@@ -47,7 +47,7 @@ class App extends Component {
           title="About Me"
           subtitle={dummyText}
           dark={true}
-          id="About Me"
+          id="About_Me"
         />
         {/* footer */}
         <Footer />

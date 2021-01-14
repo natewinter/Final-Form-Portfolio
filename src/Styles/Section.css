@@ -2,10 +2,30 @@
   opacity: 100;
 }
 
-#section__container {
+#section__container__Home {
   border-radius: 75px;
-  -width: -webkit-fit-content;
+  width: -webkit-fit-content;
   height: -webkit-fit-content;
   width: -moz-fit-content;
   height: -moz-fit-content;
+  margin: auto;
+  margin-top: 25px;
+}
+#section__container__Projects {
+  width: -webkit-fit-content;
+  height: -webkit-fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
+  margin: auto;
+  width: 60%;
+  padding: 50px;
+}
+
+#section__container__About_Me {
+  border-radius: 75px;
+  width: -webkit-fit-content;
+  height: -webkit-fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
+  margin-bottom: 50px;
 }

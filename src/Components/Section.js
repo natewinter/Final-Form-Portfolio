@@ -3,7 +3,7 @@ import "../Styles/Section.css";
 export default function Section({ title, subtitle, dark, id, content }) {
   return (
     <div
-      id="section__container"
+      id={"section__container__" + id}
       className={"section" + (dark ? " section-dark" : "")}
     >
       <div className="section-content" id={id}>
