@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
 var ReactRotatingText = require("react-rotating-text");
 
 function Typer() {
@@ -9,8 +8,8 @@ function Typer() {
         <h1>Hi, I'm Josh Brown! A</h1>
         <ReactRotatingText
           items={[
-            "Web Developer",
-            " Cannabis Cultivation ",
+            " Web Developer",
+            " Cannabis Cultivator ",
             " Game Developer",
             " Vinyl Enthusiast ",
           ]}

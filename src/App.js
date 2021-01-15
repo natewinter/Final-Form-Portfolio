@@ -27,7 +27,7 @@ class App extends Component {
                 },
               },
               number: {
-                value: 50,
+                value: 150,
               },
               size: {
                 value: 3,

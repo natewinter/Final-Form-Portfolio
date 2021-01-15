@@ -4,12 +4,12 @@
 
 #section__container__Home {
   border-radius: 75px;
-  width: -webkit-fit-content;
-  height: -webkit-fit-content;
-  width: -moz-fit-content;
+  width: auto;
+  height: auto;
+  width: auto;
   height: -moz-fit-content;
-  margin: auto;
-  margin-top: 10em;
+  margin: 10rem;
+  margin-top: 10rem;
 }
 #section__container__Projects {
   width: -webkit-fit-content;
@@ -17,8 +17,6 @@
   width: -moz-fit-content;
   height: -moz-fit-content;
   margin: auto;
-  width: 60%;
-  margin-bottom: 10em;
 }
 
 #section__container__AboutMe {

@@ -1,7 +1,8 @@
 .j-card {
-  margin: 20px;
+  margin: auto;
+  width: 50%;
   margin-bottom: 10vh;
-  display: inline-block;
+  display: grid;
 }
 
 .j-card-image {
@@ -14,20 +15,29 @@
 .j-card-info > a {
   font-size: 24px;
   margin: 0px;
-  color: maroon;
+  color: #4a3482;
 }
 a:visited {
-  color: maroon;
+  color: #4a3482;
 }
 
 .j-card-title {
   font-size: 24px;
   margin: 0px;
-  color: maroon;
+  color: #4a3482;
 }
 
 .j-card-sub-title {
   font-size: 20px;
   margin: 0px;
-  color: maroon;
+  color: #4a3482;
+}
+
+.j-container {
+  margin: auto;
+  justify-content: center;
+}
+.container {
+  margin: auto;
+  width: 50%;
 }
