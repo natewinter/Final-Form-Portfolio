@@ -1,5 +1,8 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function CardInfo(props) {
   const style = useSpring({ opacity: 1, from: { opacity: 0 } });
@@ -11,12 +14,12 @@ function CardInfo(props) {
         {props.subTitle}
         <span>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-globe j-icon" aria-hidden="true"></i>
+            <FontAwesomeIcon icon={faGlobe} size="2x" />
           </a>
         </span>
         <span>
           <a href={props.gitHub} target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-github-square j-icon" aria-hidden="true"></i>
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </span>
       </p>

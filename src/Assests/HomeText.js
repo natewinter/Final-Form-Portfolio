@@ -1,3 +1,3 @@
-const homeText = "welcome home Josh Brown";
+const homeText = "I grew cannabis and now I'm growing databases!";
 
 export default homeText;

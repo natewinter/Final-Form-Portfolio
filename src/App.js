@@ -37,7 +37,12 @@ class App extends Component {
         />
         <Navbar />
         <Typer />
-        <Section title="Home" subtitle={HomeText} dark={true} id="Home" />
+        <Section
+          title="Welcome to my portfolio!"
+          subtitle={HomeText}
+          dark={true}
+          id="Home"
+        />
         <Section
           title="Projects"
           subtitle="check out my projects"

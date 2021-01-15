@@ -78,10 +78,8 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <Container fluid={true}>
-        <Row className="justify-content-around j-container">
-          {this.makeItems(this.state.items)}
-        </Row>
+      <Container fluid={false}>
+        <Row className="j-container">{this.makeItems(this.state.items)}</Row>
       </Container>
     );
   }
