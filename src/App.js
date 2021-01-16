@@ -51,7 +51,7 @@ class App extends Component {
         />
         <Project />
         <Section
-          title="About Me"
+          title="AboutMe"
           subtitle={dummyText}
           dark={true}
           id="AboutMe"

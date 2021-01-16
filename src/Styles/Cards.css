@@ -1,8 +1,9 @@
 .j-card {
+  /* vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px; */
   margin: auto;
-  width: 50%;
-  margin-bottom: 10vh;
-  display: grid;
 }
 
 .j-card-image {
@@ -13,14 +14,23 @@
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
+  margin: auto;
 }
 
+.j-card-info {
+  display: block;
+  margin: auto;
+}
 .j-card-info > a {
   font-size: 24px;
   margin: 0px;
   color: #4a3482;
 }
 a:visited {
+  color: #4a3482;
+}
+
+a {
   color: #4a3482;
 }
 
