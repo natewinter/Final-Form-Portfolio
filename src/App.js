@@ -44,14 +44,14 @@ class App extends Component {
           id="Home"
         />
         <Section
-          title="Projects"
-          subtitle="check out my projects"
+          title="Projects!"
+          subtitle="Projects made with JavaScript!"
           dark={false}
           id="Projects"
         />
         <Project />
         <Section
-          title="AboutMe"
+          title="About Me"
           subtitle={dummyText}
           dark={true}
           id="AboutMe"

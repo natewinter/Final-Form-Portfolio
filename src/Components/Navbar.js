@@ -42,7 +42,7 @@ export default class Navbar extends Component {
                 to="AboutMe"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
               >
                 About Me
