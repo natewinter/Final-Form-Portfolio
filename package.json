@@ -38,12 +38,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/do-community/React-With-Smooth-Scrolling.git"
+    "url": "git+https://github.com/natewinter/Final-Form-Portfolio"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/do-community/React-With-Smooth-Scrolling/issues"
+    "url": "https://github.com/natewinter/Final-Form-Portfolio"
   },
-  "homepage": "https://github.com/do-community/React-With-Smooth-Scrolling#readme"
+  "homepage": "https://github.com/natewinter/Final-Form-Portfolio"
 }

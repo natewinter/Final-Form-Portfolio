@@ -78,7 +78,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <Container fluid={false}>
+      <Container className="j__card__container" fluid={false}>
         <Row className="j-container">{this.makeItems(this.state.items)}</Row>
       </Container>
     );

@@ -3,7 +3,6 @@
   display: inline-block;
   text-align: center;
   width: 120px; */
-  margin: auto;
 }
 
 .j-card-image {
@@ -14,16 +13,13 @@
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
-  margin: auto;
 }
 
 .j-card-info {
   display: block;
-  margin: auto;
 }
 .j-card-info > a {
   font-size: 24px;
-  margin: 0px;
   color: #4a3482;
 }
 a:visited {
@@ -36,21 +32,25 @@ a {
 
 .j-card-title {
   font-size: 24px;
-  margin: 0px;
+  /* margin: 0px; */
   color: #4a3482;
 }
 
 .j-card-sub-title {
   font-size: 20px;
-  margin: 0px;
+  /* margin: 0px; */
   color: #4a3482;
+}
+
+.container {
+  width: 50%;
 }
 
 .j-container {
   margin: auto;
-  justify-content: center;
 }
-.container {
+
+.j__card__container {
   margin: auto;
-  width: 50%;
+  display: flex;
 }
